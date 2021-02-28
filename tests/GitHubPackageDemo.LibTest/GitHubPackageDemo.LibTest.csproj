@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\GitHubWorkflow.Lib\GitHubPackageDemo.Lib.csproj" />
+    <ProjectReference Include="..\..\src\GitHubPackageDemo.Lib\GitHubPackageDemo.Lib.csproj" />
   </ItemGroup>
 
 </Project>

@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\GitHubWorkflow.WebApp\GitHubPackageDemo.WebApp.csproj" />
+    <ProjectReference Include="..\..\src\GitHubPackageDemo.WebApp\GitHubPackageDemo.WebApp.csproj" />
   </ItemGroup>
 
 </Project>

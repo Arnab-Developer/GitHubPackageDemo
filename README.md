@@ -1,5 +1,5 @@
 # GitHub package demo
 
-[![CI](https://github.com/Arnab-Developer/GitHubPackageDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/Arnab-Developer/GitHubPackageDemo/actions/workflows/ci.yml)
+[![CI CD](https://github.com/Arnab-Developer/GitHubPackageDemo/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Arnab-Developer/GitHubPackageDemo/actions/workflows/ci-cd.yml)
 
 A demo app which uses GitHub package for Docker image storage.
