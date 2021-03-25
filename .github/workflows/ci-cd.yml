@@ -60,7 +60,7 @@ jobs:
         docker push ${{ env.GITHUB_IMAGE_NAME }}
 
   dockerhub-deploy:
-    if: ${{ github.event_name == 'release' }}
+    #if: ${{ github.event_name == 'release' }}
     runs-on: ubuntu-latest
     needs: build-test
     steps:
