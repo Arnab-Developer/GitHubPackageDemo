@@ -58,6 +58,7 @@ jobs:
       run: |
         echo "${{ secrets.GITHUB_TOKEN }}" | docker login ${{ env.GITHUB_DOCKER }} -u ${{ env.GITHUB_DOCKER_USER }} --password-stdin
         docker push ${{ env.GITHUB_IMAGE_NAME }}
+        docker logout
 
   dockerhub-deploy:
     if: ${{ github.event_name == 'release' }}
@@ -80,3 +81,4 @@ jobs:
       run: |
         echo "${{ secrets.DOCKERHUB_PWD }}" | docker login -u ${{ env.DOCKERHUB_USER }} --password-stdin
         docker push ${{ env.DOCKERHUB_IMAGE_NAME }}
+        docker logout
